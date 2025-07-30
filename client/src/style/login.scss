@@ -1,0 +1,27 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    flex-direction: column;
+
+    &-tittle {
+        margin-top: 5rem;
+        font-size: 1.5rem;
+        font-weight: 100;
+        margin-bottom: 2rem;
+    }
+    &-btn {
+        border: 1px #333 solid;
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+        &-icon {
+            margin-right: 3rem;
+        }
+    }
+    &-btn:hover {
+        scale: 1.3;
+    }
+}
